@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="pomodoro-container">
+    <h1>Pomodoro Timer</h1>
+    
+    <!-- Selector para elegir el modo -->
+    <div>
+      <label for="mode">Seleccionar Modo:</label>
+      <select id="mode">
+        <option value="work">Tiempo de Trabajo</option>
+        <option value="break">Tiempo de Descanso</option>
+      </select>
+    </div>
+
+    <div id="timer">25:00</div>
+    <div id="status">Tiempo de Trabajo</div>
+
+    <div class="buttons">
+      <button id="start">Iniciar</button>
+      <button id="pause" disabled>Pausar</button>
+      <button id="reset">Reiniciar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
