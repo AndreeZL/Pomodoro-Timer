@@ -1,3 +1,3 @@
 # Pomodoro-Timer
-### **Desarollador **
+### Desarollador
 - **Apellidos y nombres: ZACARIAS LOPEZ, Lenning Andree** 
